@@ -127,7 +127,6 @@ export default {
   },
   methods: {
     toggleCart() {
-      this.isCartOpen = !this.isCartOpen;
       cartState.open = !cartState.open;
     },
   },
