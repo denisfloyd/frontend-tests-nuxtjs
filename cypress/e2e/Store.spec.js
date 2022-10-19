@@ -1,5 +1,4 @@
 /* eslint-disable no-undef */
-// <reference types="cypress" />
 import { makeServer } from '../../miragejs/server';
 
 context('Store', () => {
