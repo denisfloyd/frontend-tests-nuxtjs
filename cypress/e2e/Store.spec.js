@@ -42,7 +42,7 @@ context('Store', () => {
       gid('shopping-cart').should('have.class', 'hidden');
     });
 
-    it.only('should not display "Clear cart" button when cart is empty', () => {
+    it('should not display "Clear cart" button when cart is empty', () => {
       gid('toggle-button').as('toggleButton');
       g('@toggleButton').click();
       gid('clear-cart-button').should('not.exist');
